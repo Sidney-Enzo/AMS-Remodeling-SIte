@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contatos - AMS Remodelações</title>
+        <meta name="description" content="Contatinos no whatsapp, telefone ou email, resondemos segundas as sextas das 9 as 18">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles/app.css">
+        <link rel="stylesheet" href="../styles/contats.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <img src="../assets/images/orgLogo.jpg" alt="orgLogo">
+            <h1 class="navbarTitle">AMS Remodelações</h1>
+            <ul class="navbarButtons">
+                <li class="navbarButton"><a href="../index.html">Home</a></li>
+                <li class="navbarButton"><a href="./about.html">Sobre</a></li>
+                <li class="navbarButton"><a href="./contats.html" style="color: black;">Contatos</a></li>
+                <li class="navbarButton"><a href="./works.html">Trabalhos</a></li>
+            </ul>
+        </nav>
+        <main class="pageConteiner">
+            <article>
+                <h2 class="subtitle">
+                    Entre em contato conosco <br>
+                    e descubra como podemos <br>
+                    transformar o seu ambiente
+                </h2>
+                <div id="contatCards">
+                    <div class="contatCard">
+                        <img src="../assets/images/phoneIcon.png" alt="phone icon" class="cardIcon">
+                        <img src="../assets/images/whatsappIcon.png" alt="whatsapp icon" class="cardIcon">
+                        <h2>Telefones</h2>
+                        <div class="contatCardContent">
+                            <p>Ligar a qualquer momento</p>
+                            <a href="tel:+351934730089"><b>+351 934 730 089</b></a>
+                            <a href="tel:+351935958988"><b>+351 935 958 988</b></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contatCard">
+                        <img src="../assets/images/mailIcon.png" alt="mail icon" class="cardIcon">
+                        <h2>Email</h2>
+                        <div class="contatCardContent">
+                            <p>Enviar um email e respondemos</p>
+                            <a href="mailto:asm.remodelacoes@gmail.com"><b>asm.remodelacoes@gmail.com</b></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article style="background-color: rgb(15, 15, 15);">
+                <form action="../scripts/emailform.php" method="post" id="sendMessage">
+                    <h2 class="subtitle">Contacte-nos</h2>
+                    <label for="nome">Nome/Apelido (obrigatorio):</label><br>
+                    <input type="text" id="name" name="name" placeholder="Nome completo" required><br>
+                    
+                    <label for="email">E-mail (obrigatorio):</label><br>
+                    <input type="email" id="email" name="email" placeholder="E-mail" required><br>
+                    
+                    <label for="phone">Telefone:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="Telefone"><br>
+                    
+                    <label for="menssage">Mensagem (obrigatorio):</label><br>
+                    <textarea id="menssage" name="menssage" rows="5" placeholder="Digite sua mensagem aqui..." required></textarea><br>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+            <article style="background-color: rgb(69, 69, 69);">
+                <div style="display: block;">
+                    <h3>Horarios (Whatsapp e sede)</h3>
+                    <p>
+                        De Segunda-feira a Sexta-feira <br>
+                        das 9:00h as 18:00h
+                    </p>
+                </div>
+                <div style="display: block;  margin-left: auto;">
+                    <h3>Sede/Morada</h3>
+                    <p>
+                        R. Mouzinho de Albuquerque 28<br>
+                        Amadora, Portugal
+                    </p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.1226015948417!2d-9.218453048959196!3d38.74670686396283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ecce24f525a1d%3A0x4e12c240e028398a!2sR.%20Mouzinho%20de%20Albuquerque%2028%2C%202720-122%20Amadora!5e0!3m2!1spt-PT!2spt!4v1733072938168!5m2!1spt-PT!2spt"  width="200" height="110" style="border:0; margin-left: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </main>
+    </body>
+</html>

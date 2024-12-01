@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../assets/images/orgLogo.jpg') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#homeConteiner {
+    margin-top: 50vh; /*TEMPORARY*/
+
+    text-align: center;
+}
+
+#homeNav {
+    padding: 0;
+
+    list-style-type: none;
+}
+
+#homeNav li {
+    display: block;
+    padding: 8px;
+}
+
+#homeNav li a {
+    color: gold;
+}
+
+@media (min-width: 600px) {
+    #homeNav li {
+        display: inline;
+        padding: 64px;
+    }
+}

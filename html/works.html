@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Trabalhos - AMS Remodelações</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles/app.css">
+        <link rel="stylesheet" href="../styles/works.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <img src="../assets/images/orgLogo.jpg" alt="orgLogo">
+            <h1 class="navbarTitle">AMS Remodelações</h1>
+            <ul class="navbarButtons">
+                <li class="navbarButton"><a href="../index.html">Home</a></li>
+                <li class="navbarButton"><a href="./about.html">Sobre</a></li>
+                <li class="navbarButton"><a href="./contats.html">Contatos</a></li>
+                <li class="navbarButton"><a href="./works.html" style="color: black;">Trabalhos</a></li>
+            </ul>
+        </nav>
+        <main class="pageConteiner">
+            <article style="display: block; position: relative;">
+                <h2 class="subtitle", style="text-align: center;">Obras ja concluidas, é um prazer fazer bem feito assim</h2>
+                <div id="carrussel">
+                    <img src="../assets/images/after.jpg" alt="" class="mySlides fade">
+                    <img src="../assets/images/after2.jpg" alt="" class="mySlides fade">
+                    <img src="../assets/images/after3.jpg" alt="" class="mySlides fade">
+                    <a id="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a id="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </article>
+        </main>
+        <script src="../scripts/works.js" async defer></script>
+    </body>
+</html>
