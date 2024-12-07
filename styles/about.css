@@ -32,7 +32,15 @@ article {
 }
 
 .extraText {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease, opacity 0.5s ease;
+    opacity: 0;
+}
+
+.extraText.active {
+    max-height: 200px;
+    opacity: 1;
 }
 
 @media (min-width: 512px) {

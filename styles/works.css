@@ -1,5 +1,6 @@
 #carrussel {
     display: block;
+    max-height: 500px;
 }
 
 .mySlides {
