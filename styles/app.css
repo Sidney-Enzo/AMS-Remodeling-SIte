@@ -11,6 +11,13 @@ article {
     padding: 16px;
 }
 
+footer {
+    text-align: center;
+    height: 128px;
+    background-color: white;
+    color: black;
+}
+
 .navbar {
     background-color: white;
     box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.273);
